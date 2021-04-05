@@ -5,10 +5,8 @@
   "keywords": [
     "telegram",
     "userbot",
-    "plugin",
-    "modular",
-    "productivity"
   ],
+  "image": "heroku/python",
   "formation": {
     "worker": {
       "quantity": 1,
