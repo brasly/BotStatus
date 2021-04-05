@@ -9,33 +9,30 @@
     "modular",
     "productivity"
   ],
-    "repository": "https://github.com/rohithaditya/BotStatus",
-    "website": "https://github.com/rohithaditya/BotStatus",
-    "success_url": "https://github.com/rohithaditya/BotStatus",
-     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "env": {
+    "API_ID": {
+      "description": "App api_id from https://my.telegram.org"
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
-      "value": ""
+      "description": "App api_hash from https://my.telegram.org"
     },
-      "STRING_SESSION": {
-      "description": "Get From Repl.run Or Run Locally or https://Godhackerz-userbot.rohithaditya.repl.run", 
-      "value": ""
-    },"CHANNEL_ID": {
-      "description": "A Chnl ID Where You Want Posting Feature",
-      "value": ""
+    "STRING_SESSION": {
+      "description": "Bot token from https://t.me/BotFather"
     },
-        "BOTS_USERNAME": {
-          "description": "Enter Your Bot Username seprated by space",
-          "value": ""
+    "CHANNEL_ID": {
+      "description": "Chat ID of the channel/groups/chat from where to forward messages"
     },
-        "YOUR_BOT_TOKEN": {
-          "description": "Enter your bot token from bot father", 
-          "value": ""
+    "BOTS_USERNAME": {
+      "description": "Chat ID of thr chat where to forward messages"
     },
-        "MESSAGE_ID": { 
-          "decription": "Something need to ask xditya", 
-          "value": ""
+    "MESSAGE_ID": {
+      "description": "Telegram session name, required if you want to login as user",
     }
+  }
+}
